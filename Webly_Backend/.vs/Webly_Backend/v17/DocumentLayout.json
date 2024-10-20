@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Migrations\\20241020043044_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API\\Migrations\\20241020043044_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\models\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\models\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\models\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\models\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\models\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\models\\entities\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\models\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\models\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|c:\\users\\gurvir\\desktop\\prog30000-assignment2\\webly_backend\\webly_backend\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{189BBCA0-AC4E-429A-BC67-6F84F1F2E5E1}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\.gitignore",
+              "RelativeDocumentMoniker": "API\\.gitignore",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\.gitignore",
+              "RelativeToolTip": "API\\.gitignore",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-20T04:36:29.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241020043044_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Migrations\\20241020043044_InitialCreate.cs",
+              "RelativeDocumentMoniker": "API\\Migrations\\20241020043044_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Migrations\\20241020043044_InitialCreate.cs",
+              "RelativeToolTip": "API\\Migrations\\20241020043044_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:30:44.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-20T04:19:15.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "API\\Models\\Persistence\\AppDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:12:43.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:47.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T04:10:41.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T04:10:39.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Helpers\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Helpers\\ImageHelper.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Helpers\\ImageHelper.cs",
+              "RelativeToolTip": "API\\Models\\Helpers\\ImageHelper.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:34.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "API\\Models\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:29.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Entities\\Tag.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\Tag.cs",
+              "RelativeToolTip": "API\\Models\\Entities\\Tag.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:24.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\Image.cs",
+              "RelativeDocumentMoniker": "API\\Models\\Entities\\Image.cs",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Models\\Entities\\Image.cs",
+              "RelativeToolTip": "API\\Models\\Entities\\Image.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T04:10:18.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Gurvir\\Desktop\\PROG30000-Assignment2\\Webly_Backend\\Webly_Backend\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwB0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T04:10:10.755Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

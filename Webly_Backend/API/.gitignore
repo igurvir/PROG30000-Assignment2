@@ -1,0 +1,25 @@
+﻿# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Secrets and sensitive files
+appsettings.Development.json
+appsettings.Local.json
+appsettings.Production.json
+
+# Database files
+*.mdf
+*.ldf
+
+# Entity Framework migration files
+Migrations/
+
+# Visual Studio Code settings
+.vscode/
+.vs/

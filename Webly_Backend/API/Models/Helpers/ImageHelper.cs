@@ -23,6 +23,10 @@ namespace API.Models.Helpers
             request.AddHeader("Authorization", String.Format("Basic {0}", basicAuthValue));
 
             var response = client.Execute(request);
+            if (response.Content == null)
+            {
+                yield break; // Exit if the content is null
+            }
 
             string[] lines = response.Content.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
             IEnumerable<string> results = lines.Where(l => l.Contains("\"tag\""));

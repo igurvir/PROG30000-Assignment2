@@ -1,16 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using API.Models;
 
-namespace API.Models.Entities
+public class Image
 {
-    public class Image
-    {
-        public Guid Id { get; set; }
-        public string Url { get; set; }
-        public User User { get; set; }
-        public DateTime PostingDate { get; set; }
-        public List<Tag> Tags { get; set; }
-    }
+    public Guid Id { get; set; }
+    public string Url { get; set; } = string.Empty; // Initialize to avoid null warning
+    public User User { get; set; } = new User(); // Initialize to avoid null warning
+    public DateTime PostingDate { get; set; }
+    public List<Tag> Tags { get; set; } = new List<Tag>(); // Initialize to avoid null warning
 }
