@@ -15,7 +15,7 @@ namespace API.Models.Persistence
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Configure relationships if needed
+            
             base.OnModelCreating(modelBuilder);
         }
     }

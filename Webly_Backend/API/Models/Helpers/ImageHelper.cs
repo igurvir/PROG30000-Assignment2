@@ -25,7 +25,7 @@ namespace API.Models.Helpers
             var response = client.Execute(request);
             if (response.Content == null)
             {
-                yield break; // Exit if the content is null
+                yield break; 
             }
 
             string[] lines = response.Content.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
