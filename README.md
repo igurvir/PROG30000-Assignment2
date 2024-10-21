@@ -1,45 +1,66 @@
 # API ENDPOINTS CHECKLIST
 
-**GET /api/images**
+Project Setup and API Integration
 
-Returns all images, paginated (10 per page), ordered by posting date.
+✅ Project Setup: Downloaded the starter project, added it to Git, and committed frequently.
 
-**GET /api/images/{id}**
+✅ Imagga API Integration: Signed up for a free Imagga API, integrated it into the ImageHelper.GetTags method, and replaced the placeholders with actual API keys.
 
-Returns the details of a specific image by ID, including the URL, user name, user ID, and tags.
+✅ Database Setup: Enabled database support using SQLite.
 
-Returns a 404 if the image does not exist.
+API Endpoints and Functionality
 
-**GET /api/images/byTag**
 
-Returns images filtered by a given tag, paginated (10 per page), and ordered by posting date.
+GET /api/images
 
-Returns 404 if no images match the given tag.
+✅ Returns paginated images (10 per page), ordered by posting date.
 
-**GET /api/images/populartags**
+✅ Includes metadata (totalPages, totalImages) and pagination links.
 
-Returns the top 5 popular tags based on their frequency of use.
+GET /api/images/{id}
 
-**POST /api/users**
+✅ Returns image details (ID, URL, username, user ID, tags).
 
-Adds a new user to the database.
+✅ Returns 404 Not Found if the image does not exist and 400 Bad Request for invalid ID format.
 
-Validates that the user’s email is unique and the required fields are provided.
+GET /api/images/byTag
 
-**POST /api/users/{id}/image**
+✅ Returns images filtered by the specified tag, paginated (10 per page), ordered by posting date.
 
-Adds an image to a specified user and generates tags using ImageHelper.GetTags.
+✅ Returns 404 Not Found if no images match the given tag.
 
-Returns the user’s details, including the last 10 images.
+GET /api/images/populartags
 
-**GET /api/users/{id}**
+✅ Returns the top 5 popular tags from the database, ordered by frequency.
 
-Retrieves a user's details, including the last 10 images.
+POST /api/users
 
-**GET /api/users/{id}/images**
+✅ Adds a new user to the database.
 
-Returns all images of a given user, paginated (10 per page), ordered by posting date.
+✅ Validates that the name is required and the email is unique.
 
-**DELETE /api/users/{id}**
+POST /api/users/{id}/image
 
-Deletes a user and all their associated image
+✅ Adds an image to the specified user's image list.
+
+✅ Uses ImageHelper.GetTags to generate tags for the image.
+
+✅ Returns the user’s details, including the last 10 images.
+
+GET /api/users/{id}
+
+✅ Returns a user object with the last 10 images.
+
+GET /api/users/{id}/images
+
+✅ Returns all images for a specified user, paginated (10 per page), ordered by posting date.
+
+DELETE /api/users/{id}
+
+✅ Removes the specified user and all associated images.
+
+Error Handling
+
+✅ Ensures appropriate error responses for 404 Not Found, 400 Bad Request, etc.
+
+✅ Provides detailed error messages as per the assignment format.
