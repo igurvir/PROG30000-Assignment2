@@ -10,29 +10,40 @@ namespace API.Models.Helpers
     {
         public static IEnumerable<string> GetTags(string imageUrl)
         {
-            string apiKey = "copy your api key here";
-            string apiSecret = "copy your api secret here";
+           
+            string apiKey = "acc_42a01e35340cd22";
+            string apiSecret = "0b743b54d27333f3df78af4176dc1e74";
 
-            string basicAuthValue = System.Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(String.Format("{0}:{1}", apiKey, apiSecret)));
+            
+            string basicAuthValue = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes($"{apiKey}:{apiSecret}"));
 
+            // Set up the REST client for the Imagga API
             var client = new RestClient("https://api.imagga.com/v2/tags");
 
+            // Configure the request
             var request = new RestRequest();
             request.Method = Method.Get;
             request.AddParameter("image_url", imageUrl);
-            request.AddHeader("Authorization", String.Format("Basic {0}", basicAuthValue));
+            request.AddHeader("Authorization", $"Basic {basicAuthValue}");
 
+            // Execute the request and get the response
             var response = client.Execute(request);
-            if (response.Content == null)
+            if (!response.IsSuccessful || response.Content == null)
             {
-                yield break; 
+                throw new Exception("Error retrieving tags from Imagga: " + response.ErrorMessage);
             }
 
-            string[] lines = response.Content.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
-            IEnumerable<string> results = lines.Where(l => l.Contains("\"tag\""));
-            var result = new List<string>();
+            // Parse the response to extract tags
+            var lines = response.Content.Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
+            var results = lines.Where(l => l.Contains("\"tag\""));
             foreach (var line in results)
-                yield return line.Split(':')[2].Replace("}", string.Empty).Replace("\"", string.Empty).Replace("]", string.Empty);
+            {
+                yield return line.Split(':')[2]
+                                 .Replace("}", string.Empty)
+                                 .Replace("\"", string.Empty)
+                                 .Replace("]", string.Empty)
+                                 .Trim();
+            }
         }
     }
 }

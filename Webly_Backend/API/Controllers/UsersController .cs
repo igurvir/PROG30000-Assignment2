@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using API.Models;
 using API.Models.Persistence;
 using Microsoft.EntityFrameworkCore;
-using API.Models;
+using API.Models.Helpers;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -112,5 +113,57 @@ public class UsersController : ControllerBase
         _context.Users.Remove(user);
         await _context.SaveChangesAsync();
         return NoContent();
+    }
+
+    // POST /api/users/{id}/image
+    [HttpPost("{id}/image")]
+    public async Task<IActionResult> AddImageToUser(Guid id, [FromBody] string imageUrl)
+    {
+        var user = await _context.Users.Include(u => u.Images).FirstOrDefaultAsync(u => u.Id == id);
+        if (user == null)
+        {
+            return NotFound(new { errors = new[] { new { status = "404", title = "User Not Found", detail = "The specified user does not exist." } } });
+        }
+
+        if (string.IsNullOrEmpty(imageUrl))
+        {
+            return BadRequest(new { errors = new[] { new { status = "400", title = "Invalid Data", detail = "Image URL is required." } } });
+        }
+
+        // Create a new Image entity
+        var newImage = new Image
+        {
+            Id = Guid.NewGuid(),
+            Url = imageUrl,
+            PostingDate = DateTime.UtcNow,
+            User = user
+        };
+
+        
+        var tags = ImageHelper.GetTags(imageUrl).ToList();
+        foreach (var tagText in tags)
+        {
+            var tag = await _context.Tags.FirstOrDefaultAsync(t => t.Text == tagText) ?? new Tag { Id = Guid.NewGuid(), Text = tagText };
+            newImage.Tags.Add(tag);
+        }
+
+        // Add the new image to the user's list of images and save changes
+        user.Images.Add(newImage);
+        _context.Images.Add(newImage);
+        await _context.SaveChangesAsync();
+
+        // Return the updated user object including the last 10 images
+        var response = new
+        {
+            id = user.Id,
+            username = user.Name,
+            email = user.Email,
+            imagesUrls = user.Images.OrderByDescending(i => i.PostingDate)
+                                     .Take(10)
+                                     .Select(i => i.Url)
+                                     .ToList()
+        };
+
+        return CreatedAtAction(nameof(GetUser), new { id = user.Id }, response);
     }
 }
